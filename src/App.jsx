@@ -2,12 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Producto from './components/Producto';
 import GlobalStyle from './components/GlobalStyle';
-import Contador from './components/Contador'; // Verifica el nombre del archivo
+import Contador from './components/Contador';
 import EjemploConValue from './components/EjemploConValue';
 import TodoList from './components/TodoList';
 import ComponenteUseEffect from './components/ComponenteUseEffect';
 import MyComponent from './components/MyComponent';
-import { AppProvider } from './context/AppContext';
+import { AppProvider } from './context/AppContext'
 import ComponentContext from './components/ComponentContext';
 import Ui from './components/Ui';
 import ThemeConfig from './context/ThemeConfig';

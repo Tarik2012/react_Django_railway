@@ -66,26 +66,26 @@ const Button = styled.button`
 `;
 
 const Contador = () => {
-    const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(0);
 
-    const subir = () => {
-        setContador(contador + 1);
-    };
+  const subir = () => {
+    setContador(contador + 1);
+  };
 
-    const restablecer = () => {
-        setContador(0);
-    };
+  const restablecer = () => {
+    setContador(0);
+  };
 
-    return (
-        <>
-            <Header />
-            <Container>
-                <CountDisplay>{contador}</CountDisplay>
-                <Button onClick={subir}>Incrementar</Button>
-                <Button onClick={restablecer}>Restablecer</Button>
-            </Container>
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <Container>
+        <CountDisplay>{contador}</CountDisplay>
+        <Button onClick={subir}>Incrementar</Button>
+        <Button onClick={restablecer}>Restablecer</Button>
+      </Container>
+    </>
+  );
 };
 
 export default Contador;
