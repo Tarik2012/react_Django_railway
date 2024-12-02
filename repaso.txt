@@ -1,0 +1,26 @@
+React Router: Es fundamental para el manejo de rutas y la navegación en aplicaciones React. Te permite crear rutas dinámicas, protección de rutas, redirecciones y navegación basada en el historial.
+
+Redux o Context API: Para el manejo del estado global de tu aplicación. Aunque React Context es útil para proyectos pequeños a medianos, Redux sigue siendo popular para aplicaciones más grandes y complejas.
+
+Styled-components o CSS Modules: Si te interesa la gestión de estilos en React, aprender una solución como styled-components (CSS-in-JS) o CSS Modules te ayudará a hacer que tu código sea más modular y manejable.
+
+Hooks personalizados (Custom Hooks): Crear tus propios hooks te permitirá reutilizar la lógica del estado y la lógica de efectos en tus componentes, haciendo tu código más limpio y reutilizable.
+
+Formularios avanzados con React Hook Form: Esta biblioteca es ideal para manejar formularios complejos de manera simple y eficiente, y se usa mucho junto con validaciones mediante Yup o Zod.
+
+Componentes de librerías UI como Material-UI, Ant Design o Tailwind CSS: Estas herramientas te proporcionan componentes estilizados preconstruidos y personalizables, lo que te permitirá crear interfaces de usuario atractivas rápidamente.
+
+Testing: Aprender a probar tus aplicaciones con herramientas como Jest y React Testing Library para asegurarte de que tu código sea robusto, mantenible y libre de errores.
+
+Consumo de APIs y manejo de datos asíncronos: Usar fetch o bibliotecas como Axios para consumir APIs y manejar datos. También puedes explorar React Query para manejar la sincronización y el estado del servidor.
+
+GraphQL con Apollo Client: GraphQL está siendo muy usado y aprender a integrar tu frontend React con servicios de GraphQL utilizando Apollo Client puede ser una gran ventaja.
+
+WebSockets para comunicación en tiempo real: Si estás interesado en crear aplicaciones con funcionalidad en tiempo real, aprender a integrar WebSockets para chat, notificaciones o actualizaciones instantáneas te será muy útil.
+
+Server-Side Rendering (SSR) y Static Site Generation (SSG) con otras soluciones o frameworks que soporten React.
+
+
+1- vamos a repasar Context { createContext, useState, useContext }
+2- vamos a repasar GraphQL con Apollo Client
+3- vamos a repasar strapi
